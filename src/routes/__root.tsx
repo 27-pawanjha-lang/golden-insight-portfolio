@@ -81,17 +81,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       {
         name: "description",
         content:
-          "Professional portfolio of Pawan Kumar Jha, a PGDM student specializing in Marketing and Wealth Management with experience in client handling, investment advisory support, market research, digital marketing, and business analysis.",
+          "PGDM student specializing in Marketing and Wealth Management with experience in client handling, investment advisory, market research, digital marketing, and business analysis.",
       },
       { name: "author", content: "Pawan Kumar Jha" },
       { property: "og:title", content: "Pawan Kumar Jha | Marketing & Wealth Management Professional" },
       {
         property: "og:description",
         content:
-          "PGDM student specializing in Marketing and Wealth Management. Client handling, investment advisory, market research, digital marketing, and data-driven strategy.",
+          "PGDM student specializing in Marketing and Wealth Management with experience in client handling, investment advisory, market research, digital marketing, and business analysis.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Pawan Kumar Jha | Marketing & Wealth Management Professional" },
+      { name: "twitter:description", content: "PGDM student specializing in Marketing and Wealth Management with experience in client handling, investment advisory, market research, digital marketing, and business analysis." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a5b83d16-b19c-4c06-90e0-d512b0471f3e/id-preview-ad554bb9--0e4bff1e-6be9-41f4-9e97-282dd45e744e.lovable.app-1784863827337.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a5b83d16-b19c-4c06-90e0-d512b0471f3e/id-preview-ad554bb9--0e4bff1e-6be9-41f4-9e97-282dd45e744e.lovable.app-1784863827337.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

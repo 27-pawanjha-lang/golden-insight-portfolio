@@ -18,8 +18,8 @@ export const Route = createFileRoute("/")({
         content:
           "PGDM student specializing in Marketing and Wealth Management with experience in client handling, investment advisory, market research, digital marketing, and business analysis.",
       },
-      { property: "og:title", content: "Pawan Kumar Jha | Portfolio" },
-      { property: "og:description", content: "Marketing & Wealth Management Professional | Business Analyst" },
+      { property: "og:title", content: "Pawan Kumar Jha | Marketing & Wealth Management Professional" },
+      { property: "og:description", content: "PGDM student specializing in Marketing and Wealth Management with experience in client handling, investment advisory, market research, digital marketing, and business analysis." },
       { property: "og:url", content: "/" },
     ],
     links: [{ rel: "canonical", href: "/" }],
